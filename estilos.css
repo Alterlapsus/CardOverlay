@@ -12,8 +12,9 @@ body{
     width: 350px;
     margin: 30px auto;
     position: relative;
-
+    overflow: hidden;
 }
+
 .picture__img{
     width: 100%;
     display: block;
@@ -27,6 +28,12 @@ body{
     background-color: rgba(220, 20, 60, 0.4);
     padding: 60px 20px;
     color: #fff;
+    transform: translate(100%, 100%) rotate(0);
+    transition: transform .5s;
+}
+
+.picture:hover .picture__container{
+    transform: translate(0) rotate(360deg);
 }
 
 .picture__title{
@@ -39,4 +46,5 @@ body{
 .picture__paragraph{
     line-height: 1.5;
 }
+
 
