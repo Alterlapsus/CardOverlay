@@ -8,3 +8,35 @@ body{
     font-family: arial;
 }
 
+.picture{
+    width: 350px;
+    margin: 30px auto;
+    position: relative;
+
+}
+.picture__img{
+    width: 100%;
+    display: block;
+}
+.picture__container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(220, 20, 60, 0.4);
+    padding: 60px 20px;
+    color: #fff;
+}
+
+.picture__title{
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 6px solid;
+    padding-bottom: 8px;
+    margin-bottom: 1em;
+}
+.picture__paragraph{
+    line-height: 1.5;
+}
+
